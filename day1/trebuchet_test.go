@@ -8,7 +8,6 @@ import (
 func TestCountValues(t *testing.T) {
 	type test struct {
 		input []string
-		sep   string
 		want  int
 	}
 
