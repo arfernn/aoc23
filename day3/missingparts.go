@@ -29,7 +29,7 @@ func HasContiguousSymbol(i int, j int, length int, input []string, symbol rune) 
 		}
 		for _, char := range subStr {
 			if specificComparison {
-				return char == symbol
+				return (char == symbol,
 			} else {
 				if IsSymbol(char) {
 					return true

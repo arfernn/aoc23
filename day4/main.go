@@ -7,9 +7,6 @@ import (
 
 func main() {
 	input, _ := common.ParseFile("input.txt")
-
-	fmt.Println(CalcMissingParts(input))
-
-
-	
+	result := GetAccumulatedScores(input)
+	fmt.Println(result)
 }
